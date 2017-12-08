@@ -54,4 +54,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
 gem 'kaminari'
+gem 'bootstrap4-kaminari-views'
 gem 'rest-client'
