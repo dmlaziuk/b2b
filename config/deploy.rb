@@ -4,16 +4,13 @@ lock '~> 3.10.0'
 set :application, 'b2b'
 set :repo_url, 'git@github.com:dmlaziuk/b2b.git'
 set :branch, 'master'
-
 set :deploy_to, '/var/www/b2b'
 
+set :ssh_options, forward_agent: true
 set :pty, false
 
 set :linked_files, %w[config/database.yml]
-
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets public/system public/assets]
-
-set :ssh_options, forward_agent: true
 
 set :rvm_ruby_version, '2.4.1@b2b'
 
