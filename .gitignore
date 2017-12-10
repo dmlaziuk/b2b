@@ -4,6 +4,8 @@
 /.bundle
 
 /config/database.yml
+/config/redis.yml
+/config/sidekiq.yml
 /config/secrets.yml
 
 /db/*.sqlite3
