@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-group :development do
+group :deployment do
   gem 'capistrano', '~> 3.10'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
