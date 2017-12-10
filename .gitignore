@@ -3,11 +3,6 @@
 
 /.bundle
 
-/config/database.yml
-/config/redis.yml
-/config/sidekiq.yml
-/config/secrets.yml
-
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
@@ -20,3 +15,9 @@
 /yarn-error.log
 
 .byebug_history
+
+/config/database.yml
+/config/redis.yml
+/config/sidekiq.yml
+# Ignore encrypted secrets key file.
+/config/secrets.*
