@@ -20,4 +20,4 @@
 /config/redis.yml
 /config/sidekiq.yml
 # Ignore encrypted secrets key file.
-/config/secrets.*
+/config/secrets.yml.*
