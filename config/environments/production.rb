@@ -4,4 +4,4 @@
 
 #server '18.217.123.149', user: 'deployer', roles: %w[app web db sidekiq]
 
-config.read_encrypted_secrets = true
+#config.read_encrypted_secrets = true
